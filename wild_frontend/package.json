@@ -1,0 +1,59 @@
+{
+  "name": "wild",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@usewinter/checkout": "^0.1.22",
+    "core-js": "^3.25.5",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "ethers": "^5.7.1",
+    "gsap": "^3.10.4",
+    "infinite-react-carousel": "^1.2.11",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.0",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.0",
+    "react-use": "^17.3.2",
+    "react-wavify": "^1.6.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.2",
+    "web3": "^1.6.1",
+    "web3-eth-contract": "^1.6.1",
+    "zustand": "^4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
+}

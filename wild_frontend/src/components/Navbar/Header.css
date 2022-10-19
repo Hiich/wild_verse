@@ -1,0 +1,81 @@
+.logo {display:none;}
+.logo svg {height:90px;margin:40px 0;}
+.NavBarWithLogo {display:flex;justify-content:safe;width: 100%;z-index: 10;background-color: black;}
+.Navwidth{width:90%;margin:0 auto;border-bottom:1px solid white;text-align:center;}
+.NavBar {display:flex;flex:0.8 1;justify-content:center;align-items:center;width:100%;margin:0 auto;}
+.text {color:white;font-weight:bold;font-size:22px;text-decoration:none;font-family:'Bureau Grot Condensed';text-transform:uppercase;width:20%;}
+.text:last-child{height:26px;display:flex;align-items:center;justify-content: center;}
+.text:last-child img{width:140px;}
+.text p{margin-left: 10px;font-family: 'General Sans';font-weight: 600;}
+
+/* responsive navbar */
+nav.navbar {background:whitesmoke;}
+.navbar-container {display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:80%;margin:0 auto;padding:0.6rem;}
+.navbar-toggler {padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem;color:rgba(0,0,0,.5);border-color:rgba(0,0,0,.1);}
+.navbar-toggler-icon {display:inline-block;width:2em;height:5.5em;vertical-align:middle;background-size:100% 100%;}
+ul.links-list {display:flex;flex-direction:row;}
+li.nav-item {list-style-type:none;margin-left:40px;}
+nav a {text-decoration:none;color:#333;}
+nav a.is-active {color:maroon;}
+.container {width:80%;margin:0 auto;}
+.menu_logo svg{height:100px;padding:20px 0;margin:0 auto;}
+div.navbar-links {display:flex;flex-direction:inherit;align-items:center;width:90%;height:100%;transition:0.3s}
+div.navbar-links .active, div.navbar-links .text:hover, div.navbar-links .about-us{position:relative;cursor: pointer;}
+div.navbar-links .active::before,div.navbar-links .about-us::before {content:'';position:absolute;width:60%;left:20%;height:10px;background-color:yellow;bottom:-60px;}
+/* div.navbar-links .active::before, div.navbar-links .text:hover::before,div.navbar-links .about-us::before {content:'';position:absolute;width:60%;left:20%;height:10px;background-color:yellow;bottom:-60px;} */
+.menu_logo.active::before{display:none;}
+@media (min-width:992px) {.navbar-toggler {display:none;}}
+@media (max-width:992px) {
+.banner video {filter: grayscale(1);}
+.sec_two {padding: 40px 0;}
+div.navbar-links {height:auto;}
+.text p {margin: 0 0 0 10px;}
+.navbar-toggler {display:block;}
+div.navbar-links {list-style: none;position: absolute;backdrop-filter: blur(8px);background-color: #2323237d;flex-direction: column !important;top: 0;right: 0;z-index: 1;box-shadow: 0 0 20px rgb(0 0 0 / 30%);padding: 20px 0;border-radius: 10px;}
+.navbar-link {justify-content:center;width:100%;padding:0.4em 0.8em;border-radius:5px;}
+ul.links-list {display:flex;flex-direction:column;padding-left:0;}
+.navbar-links.menu-collapse {margin-right:-75%;width:0;overflow:hidden;}
+li.nav-item {padding-left:20px;padding-top:10px;padding-bottom:10px;margin-left:0;}
+li.nav-item a.nav-link {padding:10px 20px;}
+.menu-collapse {margin-right:-75%;width:0;overflow:hidden;}
+div.navbar-links .active{position:relative;}
+div.navbar-links .active::before,div.navbar-links .about-us::before {width: 20% !important;height: 4px !important;bottom: 0 !important;left: 40% !important;}
+.NavBar {width:100%;}
+.logo {float:left;width:100%;text-align:left;margin-left:2.5%;display:block;}
+.logo svg{margin:20px 0;}
+.text {font-size:30px;width:100%;padding:10px 0;}
+.menu_logo{display:none;}
+.close-sidebar-icon {margin: 0 30px 0 auto;padding: 0;border: 0;background: none;position: absolute;width: 25px;height: 50px;right: 5px;}
+.close-sidebar-icon:before, .close-sidebar-icon:after {content: "";position: absolute;top: 18px;left: 0;right: 0;height: 4px;background: white;border-radius: 4px;}
+.close-sidebar-icon:before {transform: rotate(45deg);}
+.close-sidebar-icon:after {transform: rotate(-45deg);}
+.close-sidebar-icon span {display: block;}
+div.navbar-links {width: 50%;}}
+@media (max-width:767px) {div.navbar-links {width:100%;}}
+@media (max-width:567px) {
+.NavBarWithLogo {display:block;}
+.text {font-size:x-large;}
+div.navbar-links {width:100%;}}
+
+
+.button_sec {padding-top: 70px;width: 100%;display: block;}
+.music_sec .button_sec {padding:0 0 70px;}
+.button_sec .btn {text-align: center;}
+.button_sec button{background: linear-gradient(30deg, rgba(255,255,255,1) 0%, rgba(255,255,6,1) 100%);width: 250px;height: 60px;padding: 0;font-family: 'Bureau Grot Condensed';font-size: 22px;margin: 10px;border: none;outline: none;position: relative;cursor: pointer;}
+.button_sec .two .btnone{color: white;z-index:0;}
+.button_sec .two .btnone .p_tag {font-family: 'Bureau Grot Condensed';font-size: 22px !important;margin: 0;width: 45% !important;float: left;text-align: end !important;}
+.button_sec .two .btnone .min_plu {padding: 0 10px;}
+.button_sec .two .btnone .count_numbers{padding:0px;width: 30px;display: inline-block;}
+.btn_text{display: flex;align-items: center;justify-content: space-evenly;width: 90%;margin: 0 auto;}
+.button_sec .two .btnone::before {content:'';position: absolute;width: calc(100% - 4px);height: calc(100% - 4px);background: black;top: 2px;left: 2px;z-index:-1;}
+
+
+.num-block {}
+/* skin 1 */
+.skin-1 .num-in {}
+.skin-1 .num-in span {display: block;float: left;width: 30px;height: 32px;line-height: 32px;text-align: center;position: relative;cursor: pointer;}
+.skin-1 .num-in span.dis:before {background-color: #ccc !important;}
+.skin-1 .num-in input {float: left;width: 32px;height: 32px;border: none;border-radius: 5px;color: white;text-align: center;padding: 0;background-color: transparent;font-family: 'Bureau Grot Condensed';font-size: 22px;}
+/* .skin-1 .num-in span.minus:before {content: '';position: absolute;width: 15px;height: 2px;background-color: #00A94F;top: 50%;left: 0;}
+.skin-1 .num-in span.plus:before, .skin-1 .num-in span.plus:after {content: '';position: absolute;right: 0px;width: 15px;height: 2px;background-color: #00A94F;top: 50%;}
+.skin-1 .num-in span.plus:after {-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);} */

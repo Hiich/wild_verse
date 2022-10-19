@@ -1,0 +1,74 @@
+.email_sec{width:90%;margin:160px auto 0;border-top:1px solid white;padding-top:100px;}
+.email_sec .center{display:flex;align-items:start;width:95%;margin:0 auto;}
+.email_sec .sec_one {width:50%;}
+.email_sec .sec_one .tital {width:80%;}
+.email_sec .sec_one h2{font-size:2.2em;margin-bottom:20px;color:white;font-weight:bold;font-family:'Bureau Grot Condensed';text-align:left;}
+
+.email_sec .sec_one form{width:100%;}
+.email_sec .sec_one form .email{border-bottom:1px solid white !important;border-top:none !important;border-right:none !important;border-left:none !important; background-color:transparent;color:white !important;font-weight:200;font-size:20px; border:none;height:60px;width:100%;border-radius:0!important;}
+.email_sec .sec_one form .email::placeholder{font-family:'General Sans';color:white;font-weight:200;font-size:20px;}
+.email_sec .sec_one form .checkbox{float:left;height:50px;width:25px;opacity:0;}
+.email_sec .sec_one form label {font-family:'General Sans';display:flex !important;align-items:self-start;cursor:pointer;margin-top:12px;color:white;font-weight:200;position:absolute;font-size:16px;}
+.email_sec .sec_one form label b{font-weight:300;}
+.email_sec .sec_one form label:before {content:''; width:25px; height:25px; background:black; border:1px solid white; display:inline-block; margin-right:16px;}
+.email_sec .sec_one form input[type="radio"]:checked ~ label:before {background:#000000 no-repeat center; background-size:12px 12px; background-image:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ1LjcwMSA0NS43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NS43MDEgNDUuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMC42ODcsMzguMzMyYy0yLjA3MiwyLjA3Mi01LjQzNCwyLjA3Mi03LjUwNSwwTDEuNTU0LDI2LjcwNGMtMi4wNzItMi4wNzEtMi4wNzItNS40MzMsMC03LjUwNCAgICBjMi4wNzEtMi4wNzIsNS40MzMtMi4wNzIsNy41MDUsMGw2LjkyOCw2LjkyN2MwLjUyMywwLjUyMiwxLjM3MiwwLjUyMiwxLjg5NiwwTDM2LjY0Miw3LjM2OGMyLjA3MS0yLjA3Miw1LjQzMy0yLjA3Miw3LjUwNSwwICAgIGMwLjk5NSwwLjk5NSwxLjU1NCwyLjM0NSwxLjU1NCwzLjc1MmMwLDEuNDA3LTAuNTU5LDIuNzU3LTEuNTU0LDMuNzUyTDIwLjY4NywzOC4zMzJ6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);}
+.email_sec .sec_one form .email:focus{outline:none !important;}
+form .email:-internal-autofill-selected{background-color:transparent !important;padding:10px;}
+.field-shift{display:none;}
+#mc_embed_signup{ width:90%; margin-top:40px;}
+#mc_embed_signup form{padding:0 !important;}
+#mc_embed_signup .mc-field-group input {padding:0;}
+#mc_embed_signup .button {display: block !important; background-color:rgba(0,0,0,0.2);border:1px solid white !important;width:150px !important;height:60px !important;margin:0 !important;border-bottom: none !important;border-radius: 4px 4px 0 0;}
+
+.mc-field-group {position:relative;}
+.mc-field-group .button {position:absolute;top:0;right:0;height:60px !important;margin:0;}
+
+.radio_btn{list-style-type:none;margin:0;padding:0;}
+.radio_btn input{opacity:0;width:auto;float:left;display:none;}
+
+.email_sec .sec_two{width:50%;}
+.email_sec .sec_two .details{width:50%;float:left;}
+.email_sec .sec_two .det_text{margin-bottom:20px;;}
+.email_sec .sec_two .det_text a{font-size:2.2em;margin-bottom:00px;color:white;font-weight:bold;font-family:'Bureau Grot Condensed';text-align:left;cursor: pointer;text-decoration: none;}
+.email_sec .sec_two .det_text p{font-family:'General Sans';color:white;font-weight:200;font-size:20px;text-align:left;margin:7px 0 10px;}
+.email_sec .sec_two .info{width:50%;float:left;}
+
+.logomark {width:60%;padding:2% 17%;margin:-10px auto 0;text-align:center;}
+.logomark svg {width:400px;margin:0 auto;}
+
+footer {display: inline-block;width: 100%;color: white;text-align: start;padding: 0% 0% 5%;margin-top: -20px;}
+footer .followus{float:left;width:75%;}
+footer .contact{float:left;width:25%;}
+footer h3{font-size:2.2em;margin-bottom:20px;color:white;font-weight:bold;font-family:'Bureau Grot Condensed';text-align:left;letter-spacing:2px;}
+footer p{font-family:'General Sans';color:white;font-weight:200;font-size:22px;margin-bottom:10px;}
+footer .followus p svg{width:50px;height:50px; margin:10px 20px 0 0px;float:left;}
+footer .footerLogo {width:70%;margin:10px 0;}
+footer ul {color:white;list-style-type:none;}
+footer ul li {font-family:"UniversCnBold", sans-serif;font-weight:bold;}
+@media (max-width:991px){
+.email_sec {margin:100px auto 0;padding-top:60px;}
+.email_sec {display:flex;}
+.email_sec .center {display:block;align-items:start;width:90%;margin:0 auto;}
+.email_sec .sec_one {width:100%;padding-bottom:70px;}
+.email_sec .sec_two {width:100%;}    
+footer .followus {width:65%;}}
+@media only screen and (max-width:768px) {
+.email_sec {margin:80px auto 0;padding-top:40px}
+.email_sec .sec_one {padding-bottom:0px;}
+footer .followus {width:100%;}
+footer .contact {width:100%;padding-top:40px;}
+footer {margin:0px;padding:50px 0;display:inline-block;}
+footer h3 {margin: 0;}}
+@media (max-width:567px){
+.logomark svg {width:80%;}
+#mc_embed_signup {width:100%;}
+#mc_embed_signup .mc-field-group input {position:unset;}
+.email_sec {margin:30px auto 0;}
+.email_sec .sec_two .details {width:100%;padding-top:40px;}
+.email_sec .sec_two .info {padding-bottom:20px;}
+.logomark {width:auto;}
+.email_sec .sec_one .tital {width:100%;}
+.email_sec .sec_one form label b{width:75%;font-weight:300;}
+.email_sec .sec_one h2 {margin:0px 0;}
+#mc_embed_signup {margin-top:10px;}
+#mc_embed_signup .button {margin:80px 0 0 !important;border-bottom: 1px solid !important;border-radius: 4px;}}
