@@ -29,10 +29,10 @@ const QuantitySection = () => {
 
             <WinterCheckout
                 projectId={7366}
-                production={false}
+                production={true}
                 showModal={showWinter}
                 // testnet need when production is false
-                testnet={'goerli'}
+                // testnet={'goerli'}
                 // pass in a function to be called when a successful purchase happens
                 // onSuccess={() => setParty(true)}
                 // pass in a function to be called when the modal is closed
